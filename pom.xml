@@ -3,15 +3,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.javaspringclub</groupId>
-	<artifactId>SpringMVC-SpringData-Assignment</artifactId>
+	<artifactId>SpringRestfulWebServiceHibernate</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>SpringMVC-SpringData-Assignment Maven Webapp</name>
+	<name>SpringRestfulWebServiceHibernate</name>
 	<url>http://maven.apache.org</url>
 	<properties>
 		<spring.version>5.0.3.RELEASE</spring.version>
 		<hibernate.version>5.2.10.Final</hibernate.version>
-		<jackson.version>2.5.2</jackson.version>
+		<jackson.version>2.7.3</jackson.version>
 	</properties>
 	<dependencies>
 		
@@ -72,6 +72,12 @@
   		<artifactId>spring-test</artifactId>
   		<version>3.2.0.RELEASE</version>
   	</dependency>
+  	<!-- Logging Dependency -->
+  	<dependency>
+				<groupId>org.slf4j</groupId>
+				<artifactId>slf4j-api</artifactId>
+				<version>1.7.5</version>
+	</dependency>
   	
   	 <dependency>
 			<groupId>com.oracle.weblogic</groupId>
@@ -99,7 +105,7 @@
 
 	</dependencies>
 	<build>
-		<finalName>SpringMVC-SpringData-Assignment</finalName>
+		<finalName>SpringRestfulWebServiceHibernate</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
